@@ -1,0 +1,36 @@
+
+.body {
+  background-color: blue;
+}
+
+.indexbox {
+  text-align: center;
+  background-color: red:
+}
+
+/* This css style the link boxes on the finished projects page. They adjust when the screen does */
+.finprojects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.finprojects > div {
+  background-color: red;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px
+  width: 200px;
+}
+
+/* This css Changes the content based upon different sized screens */
+@media (min-width: 500px) {
+  h1::before {
+    content: Ezilybored Ben Web & Game development biography
+  }
+}
+
+@media (max-width: 499px) {
+  h1:: before {
+    content: Ezilybored Ben bio
+  }
+}
